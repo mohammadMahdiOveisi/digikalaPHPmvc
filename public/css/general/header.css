@@ -1,0 +1,61 @@
+header .header {
+    width: 1220px;
+    height: 100px;
+}
+
+header .header > .right {
+    width: 700px;
+}
+
+header .header .right .top {
+    height: 45px;
+}
+
+header .header .right .bottom {
+    height: 45px;
+}
+
+header .header .right .top i {
+    font-size: 14px;
+}
+
+header .header .right .bottom p span.circle {
+    font-size: 14px;
+    width: 24px;
+    height: 24px;
+    background: #66bb6a;
+    line-height: 28px;
+    margin-top: 8px;
+}
+
+header .header .right .bottom .search {
+    width: 500px;
+}
+
+header .header .right .bottom .search.button {
+    top: 0;
+    left: 0;
+    width: 40px;
+    background: #9da3b1;
+    border: 1px solid #b5b5b5;
+    height: 40px;
+    box-shadow: none;
+}
+
+header .header .right .bottom .search.button:hover {
+    background: #838690;
+}
+
+header .header .right .bottom .search.button i {
+    font-size: 18px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+header .header .left {
+    width: 156px;
+}
+
+header .header .left a {
+    padding: 21px 0;
+}

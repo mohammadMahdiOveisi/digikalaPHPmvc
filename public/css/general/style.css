@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+/* width */
+.max_width {
+    width: 100%;
+}
+
+.auto_width {
+    width: auto;
+}
+
+/* height */
+.max_height {
+    height: 100%;
+}
+
+.auto_height {
+    height: auto;
+}
+
+/* display */
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline.block {
+    display: inline-block;
+}
+
+.none {
+    display: none;
+}
+
+/* margin */
+.margin_center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.margin_top_10 {
+    margin-top: 10px;
+}
+
+.margin_top_20 {
+    margin-top: 20px;
+}
+
+.margin_top_5 {
+    margin-top: 5px;
+}
+
+.margin_bottom_10 {
+    margin-bottom: 10px;
+}
+
+.margin_bottom_20 {
+    margin-bottom: 20px;
+}
+
+.margin_bottom_5 {
+    margin-bottom: 5px;
+}
+
+.margin_right_10 {
+    margin-right: 10px;
+}
+
+.margin_right_20 {
+    margin-right: 20px;
+}
+
+.margin_right_5 {
+    margin-right: 5px;
+}
+
+.margin_left_10 {
+    margin-left: 10px;
+}
+
+.margin_left_20 {
+    margin-left: 20px;
+}
+
+.margin_left_5 {
+    margin-left: 5px;
+}
+
+/* font */
+@font-face {
+    font-family: "yekan";
+    src: url("../../fonts/iranyekan/IRANYekan.ttf") format("truetype"),
+    url("../../fonts/iranyekan/IRANYekan.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/iranyekan/IRANYekan.woff") format("woff"),
+    url("../../fonts/iranyekan/IRANYekan.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "yekan400";
+    src: url("../../fonts/iranyekan400/IRANYekan.ttf") format("truetype"),
+    url("../../fonts/iranyekan400/IRANYekan.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/iranyekan400/IRANYekan.woff") format("woff"),
+    url("../../fonts/iranyekan400/IRANYekan.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "yekan700";
+    src: url("../../fonts/iranyekan700/IRANYekan.ttf") format("truetype"),
+    url("../../fonts/iranyekan700/IRANYekan.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/iranyekan700/IRANYekan.woff") format("woff"),
+    url("../../fonts/iranyekan700/IRANYekan.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "arial";
+    src: url("../../fonts/arial/arial.ttf") format("truetype")
+}
+
+.yekan {
+    font-family: "yekan", serif;
+}
+
+.yekan400 {
+    font-family: "yekan400", serif;
+}
+
+.yekan700 {
+    font-family: "yekan700", serif;
+}
+
+.arial {
+    font-family: "arial", serif;
+}
+
+/* button */
+.button {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .15);
+    height: 40px;
+    transition: background-color 300ms linear;
+    border-radius: 2px;
+}
+
+.green.button {
+    background-color: #4CAF50;
+}
+
+.blue.button {
+    background: #03A9F4;
+}
+
+.red.button {
+    background: #F44336;
+}
+
+.pink.button {
+    background: #E91E63;
+}
+
+.gray.button {
+    background: #999999;
+}
+
+.purple.button {
+    background: #673AB7;
+}
+
+.dark_purple.button {
+    background: #3F51B5;
+}
+
+.dark_green.button {
+    background: #00897B;
+}
+
+.black.button {
+    background: #616161;
+}
+
+.yellow.button {
+    background: #FFB300;
+}
+
+.orange.button {
+    background: #FF5722;
+}
+
+.yellow.button:hover {
+    background: #FFA000;
+}
+
+.orange.button:hover {
+    background: #E64A19;
+}
+
+.black.button:hover {
+    background: #424242;
+}
+
+.dark_green.button:hover {
+    background: #00695C;
+}
+
+.purple.button:hover {
+    background: #5E35B1;
+}
+
+.gray.button:hover {
+    background: #808080;
+}
+
+.pink.button:hover {
+    background: #C2185B;
+}
+
+.dark_purple.button:hover {
+    background: #283593;
+}
+
+.green.button:hover {
+    background: #43A047;
+}
+
+.blue.button:hover {
+    background: #039BE5;
+}
+
+.red.button:hover {
+    background: #E53935;
+}
+
+.button > p {
+    display: block;
+    font: 14px "yekan400", "arial";
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 25px;
+}
+
+/* text */
+.text_center {
+    text-align: center;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.dr_right {
+    direction: rtl;
+}
+
+.dr_left {
+    direction: ltr;
+}
+
+/* input */
+.default_input {
+    font: normal 13px "yekan400", "arial";
+    border: 1px solid #c9d1d7;
+    border-radius: 2px;
+    color: #4a4a4a;
+    z-index: 10;
+    outline: none;
+    padding: 0 15px 0 15px;
+    height: 40px;
+}
+
+.default_input:focus {
+    border: 1px solid #a7aeb3;
+}
+
+/* border_radius */
+.border_radius_2 {
+    border-radius: 2px;
+}
+
+.border_radius_4 {
+    border-radius: 4px;
+}
+
+.border_radius_0 {
+    border-radius: 0 !important;
+}
+
+.border_radius_100{
+    border-radius: 100%;
+}
+
+/* position */
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.fixed {
+    position: fixed;
+}
+
+/* default border template */
+.default_border {
+    border: 1px solid #ebeced;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+    overflow: hidden;
+}
+
+/* overflow hidden */
+.overflow_hidden {
+    overflow: hidden;
+}
+
+/* transition */
+.default_transition {
+    transition: all 400ms linear;
+}
+
+/* backgrounds */
+.bg_white {
+    background: #ffffff;
+}
+
+.bg_yellow {
+    background: yellow;
+}
+
+.bg_green {
+    background: green;
+}
+
+.bg_blue {
+    background: blue;
+}
+
+.bg_red {
+    background: red;
+}
+
+/* float */
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+/* link */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: red;
+}
+
+/* text */
+.text {
+    font: 12px "yekan400";
+}
+
+.gray {
+    color: #929292;
+}
+
+.white {
+    color: white;
+}
