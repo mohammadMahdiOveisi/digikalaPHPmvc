@@ -2,13 +2,15 @@
 <head>
     <meta charset="UTF-8">
     <title>فروشگاه اینترنتی دیجی کالا</title>
+    <link rel="stylesheet" href="<?= URL ?>/public/css/general/style.css">
+    <link rel="stylesheet" href="<?= URL ?>/public/css/general/header.css">
+    <link rel="stylesheet" href="<?= URL ?>/public/css/general/all.css">
+    <link rel="stylesheet" href="<?= URL ?>/public/css/general/nav.css">
+    <script src="<?= URL ?>/public/plugins/jQuery/jquery-3.0.0.min.js"></script>
 </head>
 <body class="yekan400">
-<link rel="stylesheet" href="<?= URL ?>/public/css/general/style.css">
-<link rel="stylesheet" href="<?= URL ?>/public/css/general/header.css">
-<link rel="stylesheet" href="<?= URL ?>/public/css/general/all.css">
 <header class="max_width">
-    <div class="header bg_white margin_center">
+    <div class="header bg_white margin_center width_1220">
         <div class="right max_height">
             <div class="top right max_width">
                 <div class="item right margin_top_10 margin_left_20">
