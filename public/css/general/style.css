@@ -18,8 +18,8 @@ li {
     width: auto;
 }
 
-.width_1200 {
-    width: 1200px;
+.width_1190 {
+    width: 1190px;
 }
 
 /* height */
@@ -454,6 +454,12 @@ li {
     float: left;
 }
 
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
 /* link */
 a {
     color: blue;
@@ -488,4 +494,14 @@ a:active {
 /* pointer */
 .pointer {
     cursor: pointer;
+}
+
+/* main */
+main .main {
+    padding: 10px 0 100px 0;
+}
+
+/* body */
+body {
+    background: #eeeff1;
 }

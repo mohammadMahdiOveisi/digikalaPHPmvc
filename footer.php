@@ -1,7 +1,7 @@
 <footer class="max_width">
     <div class="footer">
         <div class="top">
-            <div class="max_height width_1200 margin_center">
+            <div class="max_height width_1190 margin_center">
                 <div class="right max_height">
                     <span>۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم.</span>
                 </div>
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="bottom">
-            <div class="max_height width_1200 margin_center padding_top_30 padding_bottom_30">
+            <div class="max_height width_1190 margin_center padding_top_30 padding_bottom_30">
                 <div class="right max_height">
                     <div class="title yekan700 margin_bottom_30">
                         <span>راهنمای خرید از دیجی کالا</span>

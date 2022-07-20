@@ -10,8 +10,8 @@
     <script src="<?= URL ?>/public/plugins/jQuery/jquery-3.0.0.min.js"></script>
 </head>
 <body class="yekan400">
-<header class="max_width">
-    <div class="header bg_white margin_center width_1200">
+<header class="max_width bg_white padding_bottom_10">
+    <div class="header bg_white margin_center width_1190">
         <div class="right max_height">
             <div class="top right max_width">
                 <div class="item right margin_top_10 margin_left_20">

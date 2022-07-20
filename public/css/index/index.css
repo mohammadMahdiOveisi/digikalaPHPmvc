@@ -1,0 +1,7 @@
+main .main > .banner {
+    height: 135px;
+}
+
+main .main > .sidebar {
+    width: 290px;
+}

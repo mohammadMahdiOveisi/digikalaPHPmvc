@@ -1,0 +1,85 @@
+main .main > .sidebar .banner {
+    height: 50px;
+}
+
+main .main .sidebar .tv .item {
+    height: 160px;
+}
+
+main .main .sidebar .tv .item a::after {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.2);
+    display: block;
+    position: absolute;
+    top: 0;
+    transition: inherit;
+}
+
+main .main .sidebar .tv .item .play {
+    width: 64px;
+    height: 64px;
+    background: rgba(255, 255, 255, 0.4);
+    top: 47px;
+    z-index: 3;
+}
+
+main .main .sidebar .tv .item .play i {
+    font-size: 20px;
+    top: 21px;
+    right: 22px;
+}
+
+main .main .sidebar .tv .item:hover a::after {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+main .main .sidebar .tv .item:hover .play {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+main .main .sidebar .offers .item {
+    height: 250px;
+}
+
+main .main .sidebar .news .header {
+    color: #666666;
+    height: 40px;
+    background: #f7f9fa;
+    font-size: 14px;
+}
+
+main .main .sidebar .news .header span {
+    line-height: 40px;
+}
+
+main .main .sidebar .news .item {
+    height: 100px;
+    border-bottom: 1px solid #e0e3e5;
+}
+
+main .main .sidebar .news .item .image {
+    width: 62px;
+    height: 62px;
+    border-radius: 100% !important;
+}
+
+main .main .sidebar .news .item .text {
+    width: 170px;
+}
+
+main .main .sidebar .news .item .text .date {
+    color: #b0b0b0;
+}
+
+main .main .sidebar .news .item .text .info {
+    color: #575757;
+    line-height: 20px;
+}
+
+main .main .sidebar .brands .item {
+    width: 140px;
+    height: 95px;
+}
