@@ -1,0 +1,65 @@
+footer .footer {
+    height: 300px;
+}
+
+footer .footer .top {
+    height: 45px;
+    background: #6d717a;
+    color: #fff;
+}
+
+footer .footer .top .right {
+    width: 300px;
+}
+
+footer .footer .top .right span {
+    font: 14px/45px "yekan400";
+}
+
+footer .footer .top .left .item a {
+    line-height: 45px;
+}
+
+footer .footer .bottom {
+    background: #f7f8fa;
+    height: 255px;
+}
+
+footer .footer .bottom .right {
+    width: 310px;
+}
+
+footer .footer .bottom .title {
+    color: #777777;
+    font-size: 16px;
+}
+
+footer .footer .bottom .right .item {
+    font-size: 14px;
+    line-height: 30px;
+}
+footer .footer .bottom .right .item .footer_link {
+    color: #777777;
+}
+
+footer .footer .bottom .right .item .footer_link:hover {
+    color: #2f2f2f;
+}
+
+footer .footer .bottom > div > .left {
+    width: 580px;
+}
+
+footer .footer .bottom .left input {
+    width: 450px;
+}
+
+footer .footer .bottom .item .download a {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .15);
+}
+
+footer .footer .bottom .item .social a {
+    width: 24px;
+    height: 24px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .15);
+}
