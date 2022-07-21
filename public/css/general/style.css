@@ -406,6 +406,15 @@ li {
     right: 0;
 }
 
+
+.top0 {
+    top: 0;
+}
+
+.bottom0 {
+    bottom: 0;
+}
+
 /* default border template */
 .default_border {
     border: 1px solid #ebeced;

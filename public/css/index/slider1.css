@@ -1,0 +1,47 @@
+main .main .content .slider1 {
+    height: 310px;
+}
+
+main .main .content .slider1 i {
+    font-size: 40px;
+    top: 120px;
+}
+
+main .main .content .slider1 i.right0:hover {
+    margin-right: 15px;
+}
+
+main .main .content .slider1 i.left0:hover {
+    margin-left: 15px;
+}
+
+main .main .content .slider1 .navigator {
+    height: 50px;
+    background: rgba(66, 73, 89, .8);
+}
+
+main .main .content .slider1 .navigator ul li {
+    width: 20%;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+main .main .content .slider1 .navigator ul li.active {
+    background: #ffffff;
+    color: rgb(46, 51, 62);
+}
+
+main .main .content .slider1 .navigator ul li.active::after {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 15px 15px;
+    border-color: transparent transparent #ffffff transparent;
+    top: -15px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+}

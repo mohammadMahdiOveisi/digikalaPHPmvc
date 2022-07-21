@@ -5,3 +5,7 @@ main .main > .banner {
 main .main > .sidebar {
     width: 290px;
 }
+
+main .main .content {
+    width: 890px;
+}
