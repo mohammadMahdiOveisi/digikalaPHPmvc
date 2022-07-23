@@ -1,0 +1,25 @@
+main .main .content .services {
+    height: 80px;
+}
+
+main .main .content .services ul li {
+    width: 20%;
+}
+
+main .main .content .services ul li a {
+    color: #5c5c5c;
+    font-size: 12px;
+    line-height: 80px;
+}
+
+main .main .content .services ul li a i {
+    font-size: 20px;
+}
+
+main .main .content .services ul li a:hover {
+    color: orange;
+}
+
+main .main .content .services ul li a p {
+    top: -4px;
+}

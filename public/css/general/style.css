@@ -430,7 +430,7 @@ li {
 
 /* transition */
 .default_transition {
-    transition: all 400ms linear;
+    transition: all 200ms ease;
 }
 
 /* backgrounds */
@@ -498,6 +498,26 @@ a:active {
 
 .white {
     color: white;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+.pink {
+    color: deeppink;
 }
 
 /* pointer */
