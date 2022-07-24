@@ -1,0 +1,9 @@
+.flipTimer {
+    transform: scale(.3);
+    top: 230px;
+    right: 30px;
+}
+
+.flipTimer div {
+    direction: ltr!important;
+}

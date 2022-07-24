@@ -1,0 +1,148 @@
+main .main .content .slider2 {
+    height: 380px;
+}
+
+main .main .content .slider2 .navigator {
+    width: 190px;
+    background: #f5f5f5;
+    border-right: 1px solid #e5e5e5;
+}
+
+main .main .content .slider2 .navigator ul {
+
+}
+
+main .main .content .slider2 .navigator ul li {
+    height: 10%;
+    font: 12px/38px "yekan400", "arial";
+    color: #929292;
+}
+
+main .main .content .slider2 .navigator ul li:hover {
+    background: #eeeff1;
+}
+
+main .main .content .slider2 .navigator ul li.active {
+    background: #ff5252;
+    color: #ffffff;
+}
+
+main .main .content .slider2 .navigator ul li.active::after {
+    content: "";
+    height: 100%;
+    width: 10px;
+    background: inherit;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -15px;
+    border-radius: 5px;
+}
+
+main .main .content .slider2 .content {
+    width: 690px;
+}
+
+main .main .content .slider2 .content .info {
+    width: 330px;
+}
+
+main .main .content .slider2 .content .image {
+    width: 360px;
+}
+
+main .main .content .slider2 .content .title {
+    height: 90px;
+    font-size: 18px;
+    line-height: 90px;
+}
+
+main .main .content .slider2 .content .image .title {
+    color: #535353;
+}
+
+main .main .content .slider2 .content .info .title {
+    color: red;
+}
+
+main .main .content .slider2 .content .image .picture {
+    width: 220px;
+    height: 220px;
+}
+
+main .main .content .slider2 .content .price {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+main .main .content .slider2 .content .price .old {
+    background: #808080;
+    padding: 5px;
+    margin-left: 2px;
+}
+
+main .main .content .slider2 .content .price .old::after {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 10px 8px 0;
+    border-color: transparent #808080 transparent transparent;
+    position: absolute;
+    right: 63px;
+    top: 9px;
+    z-index: 2;
+}
+
+main .main .content .slider2 .content .price .old::before {
+    content: " ";
+    background: black;
+    width: 90%;
+    height: 2px;
+    top: 16px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    transform: rotate(-20deg);
+}
+
+main .main .content .slider2 .content .price .new {
+    background: #f0413e;
+    padding: 5px 20px 5px 5px;
+}
+
+main .main .content .slider2 .content .price .new::before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 11px 9px 0;
+    border-color: transparent #ffffff transparent transparent;
+    right: 0;
+    top: 8px;
+    position: absolute;
+}
+
+main .main .content .slider2 .content .attributes span {
+    color: #282828;
+    font-size: 12px;
+}
+
+main .main .content .slider2 .content .attributes span:last-child {
+    font-size: 30px;
+    line-height: 16px;
+}
+
+main .main .content .slider2 .finished {
+    top: 310px;
+    right: 30px;
+}
+
+main .main .content .slider2 .remaining_time {
+    font-size: 14px;
+    top: 270px;
+    right: 30px;
+    color: #000000;
+}

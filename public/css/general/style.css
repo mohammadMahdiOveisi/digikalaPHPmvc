@@ -22,6 +22,10 @@ li {
     width: 1190px;
 }
 
+.width_max_content {
+    width: max-content;
+}
+
 /* height */
 .max_height {
     height: 100%;
@@ -211,6 +215,18 @@ li {
 
 .arial {
     font-family: "arial", serif;
+}
+
+.arial.yekan {
+    font-family: "yekan", "arial", serif;
+}
+
+.arial.yekan400 {
+    font-family: "yekan400", "arial", serif;
+}
+
+.arial.yekan700 {
+    font-family: "yekan700", "arial", serif;
 }
 
 .bold {
