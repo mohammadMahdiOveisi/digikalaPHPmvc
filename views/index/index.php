@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="<?= URL ?>/public/plugins/flipTimer/flipTimer.css">
     <link rel="stylesheet" href="<?= URL ?>/public/css/general/flipTimer.css">
     <link rel="stylesheet" href="<?= URL ?>/public/css/general/sliderScroll.css">
+    <link rel="stylesheet" href="<?= URL ?>/public/css/index/banners.css">
     <div class="main clearfix width_1190 margin_center">
         <?php require("banner.php");
         require("sidebar.php");
@@ -14,6 +15,7 @@
         require("services.php");
         require("slider2.php");
         require("onlyDigikala.php");
+        require("banners.php");
         require('mostViewed.php');
         require('mostSaled.php');
         require('lastProducts.php');?>

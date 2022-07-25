@@ -1,0 +1,11 @@
+main .main .content .banners .item {
+    height: 190px;
+}
+
+main .main .content .banners .item.small{
+    width: 290px;
+}
+
+main .main .content .banners .item.big {
+    width: 590px;
+}

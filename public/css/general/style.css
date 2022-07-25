@@ -35,6 +35,10 @@ li {
     height: auto;
 }
 
+.height_max_content {
+    height: max-content;
+}
+
 /* display */
 .block {
     display: block;
