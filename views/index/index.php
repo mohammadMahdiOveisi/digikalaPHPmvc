@@ -6,15 +6,21 @@
     <link rel="stylesheet" href="<?= URL ?>/public/css/index/slider2.css">
     <link rel="stylesheet" href="<?= URL ?>/public/plugins/flipTimer/flipTimer.css">
     <link rel="stylesheet" href="<?= URL ?>/public/css/general/flipTimer.css">
+    <link rel="stylesheet" href="<?= URL ?>/public/css/general/sliderScroll.css">
     <div class="main clearfix width_1190 margin_center">
-        <?php require("banner.php") ?>
-        <?php require("sidebar.php") ?>
-        <?php require("slider1.php") ?>
-        <?php require("services.php") ?>
-        <?php require("slider2.php") ?>
+        <?php require("banner.php");
+        require("sidebar.php");
+        require("slider1.php");
+        require("services.php");
+        require("slider2.php");
+        require("onlyDigikala.php");
+        require('mostViewed.php');
+        require('mostSaled.php');
+        require('lastProducts.php');?>
     </div>
     <script src="<?= URL ?>/public/plugins/flipTimer/jquery.flipTimer.js"></script>
     <script src="<?= URL ?>/public/js/slider1.js"></script>
     <script src="<?= URL ?>/public/js/slider2.js"></script>
     <script src="<?= URL ?>/public/js/flipTimer.js"></script>
+    <script src="<?= URL ?>/public/js/sliderScroll.js"></script>
 </main>

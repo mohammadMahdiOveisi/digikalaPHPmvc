@@ -1,0 +1,61 @@
+main .main .content .slider_scroll {
+    height: 310px;
+}
+
+main .main .content .slider_scroll .content {
+    height: calc(100% - 40px);
+}
+
+main .main .content .slider_scroll .header {
+    height: 40px;
+    background: #f5f5f5;
+    line-height: 40px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #666666;
+    font-size: 14px;
+}
+
+main .slider_scroll .next,main .slider_scroll .prev {
+    width: 60px;
+    box-shadow: 0 8px 10px rgba(0,0,0,.2);
+    z-index: 2;
+}
+
+main .slider_scroll .next i,main .slider_scroll .prev i {
+    font-size: 30px;
+    top: 119px;
+    right: 0;
+    left: 0;
+    padding: 0 22px;
+    color: #929292;
+}
+
+main .main .content .slider_scroll .content .main {
+    width: calc(100% - 122px);
+    padding: 0;
+}
+
+main .main .content .slider_scroll ul li{
+    width: 192px;
+}
+
+main .main .content .slider_scroll ul li .image {
+    width: 130px;
+    height: 130px;
+}
+
+main .main .content .slider_scroll ul li .name {
+    color: #929292;
+    font-size: 12px;
+}
+
+main .main .content .slider_scroll ul li .name span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: initial;
+}
+
+main .main .content .slider_scroll ul li .price {
+    color: #45b24a;
+    font-size: 16px;
+}
