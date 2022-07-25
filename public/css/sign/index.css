@@ -1,0 +1,28 @@
+main .main .container .header {
+    background: #fcfcfc;
+    height: 155px;
+    color: #6d717a;
+}
+
+main .main .container .header i {
+    font-size: 50px;
+}
+
+main .main .container .header span {
+    font-size: 20px;
+}
+
+main .main .container .content .login {
+    width: 365px;
+}
+
+main .main .container .content input {
+    width: 250px;
+}
+
+main .main .container .content label {
+    width: 110px;
+    color: rgb(77,77,77);
+    font-size: 13px;
+    line-height: 40px;
+}

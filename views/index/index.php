@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="<?= URL ?>/public/css/general/flipTimer.css">
     <link rel="stylesheet" href="<?= URL ?>/public/css/general/sliderScroll.css">
     <link rel="stylesheet" href="<?= URL ?>/public/css/index/banners.css">
-    <div class="main clearfix width_1190 margin_center">
+    <div class="main clearfix width_1190 margin_center default_border">
         <?php require("banner.php");
         require("sidebar.php");
         require("slider1.php");
@@ -18,7 +18,7 @@
         require("banners.php");
         require('mostViewed.php');
         require('mostSaled.php');
-        require('lastProducts.php');?>
+        require('lastProducts.php'); ?>
     </div>
     <script src="<?= URL ?>/public/plugins/flipTimer/jquery.flipTimer.js"></script>
     <script src="<?= URL ?>/public/js/slider1.js"></script>
